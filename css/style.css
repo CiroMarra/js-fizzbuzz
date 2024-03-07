@@ -12,25 +12,32 @@ body {
 }
 
 
-.container-number {
+#container-number {
     max-width: 980px;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    gap: 3px;
 }
 
 .box {
     width: 80px;
     height: 80px;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    background-color: blue;
 }
 
-.normal {
+.fizz {
     background-color: #007b7b;
+}
+.buzz {
+    background-color: #3e007b;
+}
+.fizzbuzz {
+    background-color: #007b00;
 }
