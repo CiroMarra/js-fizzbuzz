@@ -1,0 +1,36 @@
+/*----------------
+    RESET
+-----------------*/    
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7b0000;
+}
+
+
+.container-number {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.normal {
+    background-color: #007b7b;
+}
